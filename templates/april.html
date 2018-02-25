@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Not April</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+        <script rel="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>It's April!!!</h1>
+            <div class='turtle'>
+                <img src="{{ url_for('static', filename='notapril.jpg')}}">
+            </div>
+            <!-- <form action="" method="post">
+                What color ninja are you looking for? <input type="text" name="color">
+                <input type="submit" value="Find Ninja">
+            </form> -->
+        </div>
+    </body>
+</html>
